@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+
+{{phpinfo()}}
+
+{{--
+    <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -58,7 +62,6 @@
                                     Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
                                 </div>
                                 <div>
-                                    {{phpinfo()}}
                                 </div>
                             </div>
                         </div>
@@ -133,3 +136,4 @@
         </div>
     </body>
 </html>
+--}}
